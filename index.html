@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SADCA | Innovación y Automatización en Cosecha de Café</title>
+    <!-- Fuentes de Google: Montserrat y Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado / Navegación -->
+    <header>
+        <div class="logo">SADCA<span>.</span></div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#tecnologia">Tecnología</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#contacto" class="btn-nav-ws" onclick="irAWhatsApp('Consulta General')">Hablar con un Asesor</a>
+        </nav>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">Tecnología Agrícola Bioinspirada</span>
+            <h1>Revoluciona la Cosecha de Café con <span>SADCA</span></h1>
+            <p>Automatización de alta precisión diseñada para optimizar tiempos, proteger el cultivo y llevar la productividad de tu finca al siguiente nivel.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary-ws" onclick="irAWhatsApp('Quiero adquirir la máquina SADCA')">
+                    🛒 ADQUIRIR MAQUINARIA AHORA
+                </button>
+                <a href="#tecnologia" class="btn-secondary">Ver Ficha Técnica</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características de la Maquinaria -->
+    <section id="tecnologia" class="seccion">
+        <h2 class="titulo-seccion">Ingeniería Avanzada para el Campo</h2>
+        <p class="subtitulo-seccion">SADCA integra principios mecatrónicos y diseño adaptativo para el sector cafetero.</p>
+        
+        <div class="grid-tarjetas">
+            <div class="card">
+                <div class="card-icon">⚙️</div>
+                <h3>Agarre Bioinspirado</h3>
+                <p>Mecanismos adaptativos de recolección que minimizan el daño al fruto y preservan la salud de la planta.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🚀</div>
+                <h3>Alta Eficiencia Operativa</h3>
+                <p>Reducción drástica en tiempos de recolección y optimización del rendimiento en campo.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🛡️</div>
+                <h3>Diseño Robusto y Ergonómico</h3>
+                <p>Estructura resistente para terrenos exigentes, fácil de operar y mantener.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamado a la Acción Intermedio (CTA) -->
+    <section class="banner-cta">
+        <h2>¿Listo para modernizar tu producción de café?</h2>
+        <p>Solicita una cotización directa o resuelve tus dudas técnicas con nuestro equipo.</p>
+        <button class="btn-primary-ws" onclick="irAWhatsApp('Cotización de máquina SADCA')">
+            📲 SOLICITAR COTIZACIÓN POR WHATSAPP
+        </button>
+    </section>
+
+    <!-- Sección de Especificaciones y Venta -->
+    <section id="beneficios" class="seccion">
+        <div class="contenedor-venta">
+            <div class="imagen-maquina">
+                <!-- Puedes cambiar el enlace por una foto real de SADCA cuando la tengas -->
+                <img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=800" alt="SADCA Maquinaria Agrícola">
+            </div>
+            <div class="info-venta">
+                <h2>Adquiere la Maquinaria SADCA</h2>
+                <p>Obtén atención personalizada, asesoría técnica de integración y tiempos de entrega directamente con nuestro equipo de desarrollo.</p>
+                
+                <ul class="lista-chequeo">
+                    <li>✅ Asesoría técnica directa de fábrica.</li>
+                    <li>✅ Garantía y respaldo en ingeniería.</li>
+                    <li>✅ Capacitación de uso para operadores.</li>
+                </ul>
+
+                <button class="btn-compra-grande" onclick="irAWhatsApp('Deseo comprar la máquina SADCA - Información de pago y envío')">
+                    💬 COMPRAR DIRECTO VÍA WHATSAPP
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón Flotante Permanente -->
+    <div class="ws-flotante" onclick="irAWhatsApp('Consulta rápida desde la web SADCA')" title="Contactar por WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SADCA - Sistema de Cosecha Automática. Popayán, Colombia.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
