@@ -175,7 +175,7 @@ nav a:hover {
 /* Banner Stats */
 .banner-stats {
     background: var(--bg-card);
-    border-y: 1px solid var(--borde-suave);
+    border: 1px solid var(--borde-suave);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 2.5rem 6%;
@@ -203,7 +203,7 @@ nav a:hover {
 .seccion-oscura {
     background: var(--bg-seccion-alt);
     padding: 6rem 8%;
-    border-y: 1px solid var(--borde-suave);
+    border: 1px solid var(--borde-suave);
 }
 
 .tag-sub {
@@ -382,7 +382,7 @@ nav a:hover {
 /* Banner CTA Comercial Final */
 .banner-cta {
     background: linear-gradient(180deg, var(--bg-seccion-alt) 0%, var(--bg-oscuro) 100%);
-    border-t: 1px solid var(--borde-suave);
+    border: 1px solid var(--borde-suave);
     padding: 6rem 2rem;
     text-align: center;
 }
